@@ -1,0 +1,8 @@
+Hello, World!
+Receiving a packet: {"packet_id":"0","packet_type":"ACKNOWLEDGEMENT","packet_state":"AWAITING_ACKNOWLEDGEMENT","packet_data":"","response_packet":""}
+Receiving a packet: {"packet_id":"0","packet_type":"RESPONSE_PACKET","packet_state":"AWAITING_ACKNOWLEDGEMENT","packet_data":"","response_packet":""}
+Receiving a packet: {"packet_id":"1","packet_type":"ACKNOWLEDGEMENT","packet_state":"AWAITING_ACKNOWLEDGEMENT","packet_data":"","response_packet":""}
+Receiving a packet: {"packet_id":"1","packet_type":"RESPONSE_PACKET","packet_state":"AWAITING_ACKNOWLEDGEMENT","packet_data":"","response_packet":""}
+Packet 1: {"packet_id":"0","packet_type":"REQUEST_POSITION","packet_state":"RESPONSE_PACKET_RECEIVED","packet_data":"hello world1","response_packet":{"packet_id":"0","packet_type":"RESPONSE_PACKET","packet_state":"AWAITING_ACKNOWLEDGEMENT","packet_data":"","response_packet":""}}
+Packet 2: {"packet_id":"1","packet_type":"REQUEST_POSITION","packet_state":"RESPONSE_PACKET_RECEIVED","packet_data":"hello world2","response_packet":{"packet_id":"1","packet_type":"RESPONSE_PACKET","packet_state":"AWAITING_ACKNOWLEDGEMENT","packet_data":"","response_packet":""}}
+Packet 3: {"packet_id":"2","packet_type":"REQUEST_POSITION","packet_state":"PACKET_REACHED_A_TIMEOUT","packet_data":"hello world3","response_packet":""}
